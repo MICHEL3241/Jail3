@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body style="background: radial-gradient(circle, rgb(215, 18, 18) 0%, rgb(0, 0, 0) 96%);;">
+    <header>
+        <h1 style="color: rgb(109, 8, 8);">Criando formulários</h1>
+    </header>
+    <main style="margin: 10%;">
+        <form action="#" style="color: rgb(0, 0, 0); background-color: rgb(159, 13, 43);">
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="cNome">Nome completo</label>
+                <input type="text" name="" id="cNome" size="5" maxlength="8000" required>
+                <br><br>
+                <p>Onde ustede vives</p>
+                <input type="radio" name="tipo" id="cid">
+                <label for="cid">Brazil</label>
+                <br>
+                <input type="radio" name="tipo" id="cid">
+                <label for="cid">EUA</label>
+                
+            </fieldset>
+
+            <fieldset><legend>Informações adicionias</legend>
+            <p>qual o meio de tranporte usted usa</p>
+            <input type="checkbox" name="" id="transport1">
+            <label for="transport1">Avião</label>
+            <br>
+            <input type="checkbox" name="" id="transport1">
+            <label for="transport1">Jatinho</label>
+            <br>
+            <input type="checkbox" name="" id="transport1">
+            <label for="transport1">Tanque churchirll2</label>
+            <br>
+            <input type="checkbox" name="" id="transport1">
+            <label for="transport1">Caça</label>
+            <br>
+            <input type="checkbox" name="" id="transport1">
+            <label for="transport1">Combi</label>
+            <br>
+            <label for="Time">Selecione seu timão</label>
+            <select name="Time" id="Time">
+                <option value="Inter">Inter</option>
+                <option value="Grêmio">Grêmio</option>
+                <option value="Vasgo da gama">Vasgo da gama</option>
+                <option value="Palmeiras">Palemeiras</option>
+            </select>
+            <br>
+            <br>
+            <label for="cidade">Selecione your city</label>
+            <input list="cidade" id="cid">
+            <datalist id="cidade">
+                <option value="Porto Alegre"></option>
+                <option value="São Paulo"></option>
+                <option value="Minas Gerais"></option>
+                <option value="Lá longe"></option>
+                <option value="Muito longe"></option>
+            </datalist>
+                <p>Nível de Satisfação</p>
+                 top<input type="range" name="" id="">badass
+                <br>
+                <br>
+                <p>Mensagem</p>
+                <textarea name="" id="" cols="60" rows="20" placeholder="Sugestões mesmo não precisando,elogios e sem críticas"></textarea>
+
+              
+        </fieldset>
+        <br>
+        <input type="button" value="Enviar">
+
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+</html>
